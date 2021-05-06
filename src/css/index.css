@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    background-color: #272727;
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+.pfp {
+    height: 170px;
+    width: 170px;
+    border-radius: 25%;
+    border: 8px solid #0bf574;
+    flex-basis: 0%
+}
+
+img {
+    max-width: 100%
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 20%;
+    left: 180%;
+}
+
+.title, .sub {
+    padding-left: 10px;
+    text-align: start;
+}
+
+.title {
+    font-size: 30px;
+    color: #0bf574;
+}
+
+.sub {
+    font-size: 18px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 125%;
+    left: 29%;
+}
+
+.discord {
+    height: 25px;
+    width: 25px;
+}
+
+.twitter {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+.email {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+.github {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+#pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 228%;
+    left: 35%;
+    font-size: 18px;
+}
+
+.projects, .line {
+    margin-top: -23px;
+}
