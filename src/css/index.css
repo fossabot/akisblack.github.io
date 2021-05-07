@@ -105,7 +105,13 @@ img {
     font-size: 18px;
 }
 
-.projects, .line {
+@-moz-document url-prefix() {
+    .projects, .line {
+        margin-top: -23px;
+    }
+}
+
+.projects {
     margin-top: -23px;
 }
 
