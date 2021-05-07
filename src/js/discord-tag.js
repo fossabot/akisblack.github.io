@@ -7,3 +7,5 @@ function DiscordTag() {
         console.log("Clipboard copy failed, user agent:" + navigator.userAgent);
     } 
 }
+
+//Thanks to Odyssey346 for this
