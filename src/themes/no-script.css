@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body {
+    background-color: #272727;
+    color: #ffffff;
+    font-family: Dosis, sans-serif;
+    font-size: 16px;
+  }
+
+a:link {
+  color: #0bf574;
+}  
+
+a:visited {
+  color: #0bf574
+}  
+
+a:hover {
+  color: #ffffff
+}  
+
+a:active {
+  color: #ffffff
+}
+
+a {
+  text-decoration:none;
+} 
+
+body{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+.titties {
+    color: #0bf574 !important
+}
