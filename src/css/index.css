@@ -16,8 +16,8 @@ a {
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
-    top: 50%;
-    left: 50%;
+    top: 48%;
+    left: 42%; 
 }
 
 .pfp {
@@ -107,4 +107,15 @@ img {
 
 .projects, .line {
     margin-top: -23px;
+}
+
+#webring {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    overflow:auto;
+    color: #0bf574;
+    font-size: 18px;
 }
