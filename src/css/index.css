@@ -105,14 +105,12 @@ img {
     font-size: 18px;
 }
 
-@-moz-document url-prefix() {
-    .projects, .line {
-        margin-top: -23px;
-    }
+.projects {
+    margin-left: 3px;
 }
 
-.projects {
-    margin-top: -23px;
+.bio {
+    margin-right: 3px;
 }
 
 #webring {
