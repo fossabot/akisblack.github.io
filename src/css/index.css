@@ -123,3 +123,35 @@ img {
     color: #0bf574;
     font-size: 18px;
 }
+
+@media screen and (max-width: 750px) {
+    #container {
+        top: 35%;
+        left: 50%; 
+    }
+
+    #text {
+        top: 130%;
+        left: 50%;
+    }
+
+    .title, .sub {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    #social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        top: 125%;
+        left: 115px;
+    }
+
+    #pages {
+        left: 50%;
+    }
+  }
