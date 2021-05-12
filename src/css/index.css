@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+:root {
+    --green: #0bf574;
+    --dark: #272727;
+    --white: #ffffff;
+  }
+
 body {
-    background-color: #272727;
+    background-color: var(--dark);
     font-family: 'Dosis', sans-serif;
 }
 
@@ -24,7 +30,7 @@ a {
     height: 170px;
     width: 170px;
     border-radius: 25%;
-    border: 8px solid #0bf574;
+    border: 8px solid var(--green);
     flex-basis: 0%
 }
 
@@ -51,12 +57,12 @@ img {
 
 .title {
     font-size: 30px;
-    color: #0bf574;
+    color: var(--green);
 }
 
 .sub {
     font-size: 18px;
-    color: #fff;
+    color: var(--white);
     white-space: nowrap;
 }
 
@@ -109,7 +115,7 @@ img {
     left: 0px;
     width: 100%;
     overflow:auto;
-    color: #0bf574;
+    color: var(--green);
     font-size: 18px;
 }
 
