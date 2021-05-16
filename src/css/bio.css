@@ -16,16 +16,25 @@ a {
     text-decoration: none;
 }
 
-#title {
-    font-size: 30px;
+.home, .home:hover, .home:active, .home:visited {
+    color: var(--green);
+    font-size: 36px;
+}
+
+.title {
+    font-size: 60px;
     color: var(--green);
 }
 
-#text {
-    font-size: 18px;
+.sub {
+    font-size: 24px;
     color: var(--white);
 }
 
-.home, .home:hover, .home:active, .home:visited {
-    color: var(--green);
+.line {
+    width:30%; 
+    color:#fff; 
+    border-color: #fff"
 }
+
+

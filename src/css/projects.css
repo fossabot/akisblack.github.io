@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root {
+    --green: #0bf574;
+    --dark: #272727;
+    --white: #ffffff;
+  }
+
+body {
+    background-color: var(--dark);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home, .home:hover, .home:active, .home:visited {
+    color: var(--green);
+    font-size: 36px;
+}
+
+.title {
+    font-size: 60px;
+    color: var(--green);
+}
+
+.sub {
+    padding-top: 2%;
+    font-size: 24px;
+    color: var(--green);
+}
+
+.line {
+    width:30%; 
+    color:#fff; 
+    border-color: #fff"
+}
+
+.line-text {
+    width:20%; 
+    color:#fff; 
+    border-color: #fff"
+}
+
+.sub-text {
+    font-size: 24px;
+    color: var(--white);
+}
