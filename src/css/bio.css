@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-Medium.ttf);
+}
 
 :root {
     --green: #0bf574;
