@@ -37,14 +37,14 @@ a {
 
 .line {
     width:30%; 
-    color:#fff; 
-    border-color: #fff"
+    color: var(--white); 
+    border-color: var(--white);
 }
 
 .line-text {
     width:20%; 
-    color:#fff; 
-    border-color: #fff"
+    color: var(--white);
+    border-color: var(--white);
 }
 
 .sub-text {
