@@ -2,5 +2,5 @@
 
 ## Domains
 
-#### elegant-bell-296052.netlify.app
-#### legacy.akisblack.tk
+#### https://www.legacy.akisblack.tech
+#### https://legacy.akisblack.tech
