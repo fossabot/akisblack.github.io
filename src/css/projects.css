@@ -4,14 +4,14 @@
 }
 
 :root {
-    --green: #0bf574;
-    --dark: #272727;
-    --white: #ffffff;
+    --accent: #0bf574;
+    --backgroundColor: #272727;
+    --accentAlt: #ffffff;
   }
 
 body {
-    background-color: var(--dark);
-    font-family: 'Dosis', sans-serif;
+    background-color: var(--backgroundColor);
+    font-family: "Dosis", sans-serif;
     text-align: center;
 }
 
@@ -20,34 +20,34 @@ a {
 }
 
 .home, .home:hover, .home:active, .home:visited {
-    color: var(--green);
+    color: var(--accent);
     font-size: 36px;
 }
 
 .title {
     font-size: 60px;
-    color: var(--green);
+    color: var(--accent);
 }
 
 .sub {
     padding-top: 2%;
     font-size: 24px;
-    color: var(--green);
+    color: var(--accent);
 }
 
 .line {
     width:30%; 
-    color: var(--white); 
-    border-color: var(--white);
+    color: var(--accentAlt); 
+    border-color: var(--accentAlt);
 }
 
 .line-text {
     width:20%; 
-    color: var(--white);
-    border-color: var(--white);
+    color: var(--accentAlt);
+    border-color: var(--accentAlt);
 }
 
 .sub-text {
     font-size: 24px;
-    color: var(--white);
+    color: var(--accentAlt);
 }
