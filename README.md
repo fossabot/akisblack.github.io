@@ -4,6 +4,6 @@
 
 ## Domains
 
-### akisblack.github.io
-### akisblack.tk
-### www.akisblack.tk
+### https://akisblack.github.io
+### https://akisblack.tech
+### https://www.akisblack.tk
