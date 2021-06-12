@@ -4,14 +4,14 @@
 }
 
 :root {
-    --accent: #0bf574;
-    --backgroundColor: #272727;
-    --accentAlt: #ffffff;
+    --green: #0bf574;
+    --dark: #272727;
+    --white: #ffffff;
   }
 
 body {
-    background-color: var(--backgroundColor);
-    font-family: "Dosis", sans-serif;
+    background-color: var(--dark);
+    font-family: 'Dosis', sans-serif;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
     height: 170px;
     width: 170px;
     border-radius: 25%;
-    border: 8px solid var(--accent);
+    border: 8px solid var(--green);
     flex-basis: 0%
 }
 
@@ -60,12 +60,12 @@ img {
 
 .title {
     font-size: 30px;
-    color: var(--accent);
+    color: var(--green);
 }
 
 .sub {
     font-size: 18px;
-    color: var(--accentAlt);
+    color: var(--white);
     white-space: nowrap;
 }
 
@@ -118,7 +118,7 @@ img {
     left: 0px;
     width: 100%;
     overflow:auto;
-    color: var(--accent);
+    color: var(--green);
     font-size: 18px;
 }
 

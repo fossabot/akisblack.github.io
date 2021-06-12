@@ -4,14 +4,14 @@
 }
 
 :root {
-    --accent: #0bf574;
-    --backgroundColor: #272727;
-    --accentAlt: #ffffff;
+    --green: #0bf574;
+    --dark: #272727;
+    --white: #ffffff;
   }
 
 body {
     background-color: var(--dark);
-    font-family: "Dosis", sans-serif;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
 }
 
