@@ -6,4 +6,4 @@
 
 ### https://akisblack.github.io
 ### https://akisblack.tech
-### https://www.akisblack.tk
+### https://www.akisblack.tech
